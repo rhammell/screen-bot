@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Screen_Bot")(type "KiCad")(uri "${KIPRJMOD}/Screen_Bot.kicad_sym")(options "")(descr ""))
+)

@@ -1,1 +1,39 @@
+# macOS system files
 .DS_Store
+
+# KiCad specific files and directories
+fp-info-cache
+*.cache
+
+# Backup files
+*.bak
+*-backups/
+*.backup
+
+# Temporary files
+*.tmp
+*.temp
+
+# KiCad project backup files
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+# KiCad project files that are auto-generated or user-specific
+*.kicad_prl
+
+# Gerber files (if generated)
+*.gbr
+*.gbl
+*.gbs
+*.gbo
+*.gtl
+*.gts
+*.gto
+*.gtp
+
+# KiCad autosave and recovery files
+*.autosave.kicad_sch
+*.autosave.kicad_pcb
+
+# Project-specific backup and archive folders
+Screen_Bot-backups/
