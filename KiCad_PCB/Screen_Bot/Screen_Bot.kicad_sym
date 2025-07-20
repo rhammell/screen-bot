@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -6.35 11.684 0)
+			(at -8.89 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "Adafruit DRV8833"
-			(at 3.302 -11.176 0)
+			(at 6.35 -13.97 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,22 +49,129 @@
 				(hide yes)
 			)
 		)
-		(symbol "Adafruit_DRV8833_0_1"
+		(symbol "Adafruit_DRV8833_1_1"
 			(rectangle
-				(start -7.62 10.16)
-				(end 7.62 -10.16)
+				(start -10.16 11.43)
+				(end 10.16 -12.7)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type color)
+					(color 255 255 194 1)
 				)
 			)
-		)
-		(symbol "Adafruit_DRV8833_1_1"
+			(pin open_collector line
+				(at -12.7 6.35 0)
+				(length 2.54)
+				(name "FLT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 3.81 0)
+				(length 2.54)
+				(name "BIN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 1.27 0)
+				(length 2.54)
+				(name "BIN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -1.27 0)
+				(length 2.54)
+				(name "SLP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -3.81 0)
+				(length 2.54)
+				(name "AIN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -6.35 0)
+				(length 2.54)
+				(name "AIN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
-				(at -10.16 8.89 0)
+				(at 0 13.97 270)
 				(length 2.54)
 				(name "VM"
 					(effects
@@ -82,135 +189,9 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 6.35 0)
+				(at 0 -15.24 90)
 				(length 2.54)
 				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at -10.16 3.81 0)
-				(length 2.54)
-				(name "FLT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -10.16 1.27 0)
-				(length 2.54)
-				(name "BIN1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -10.16 -1.27 0)
-				(length 2.54)
-				(name "BIN2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -10.16 -3.81 0)
-				(length 2.54)
-				(name "SLP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -10.16 -6.35 0)
-				(length 2.54)
-				(name "AIN2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -10.16 -8.89 0)
-				(length 2.54)
-				(name "AIN1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 10.16 8.89 180)
-				(length 2.54)
-				(name "BS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -226,7 +207,25 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 6.35 180)
+				(at 12.7 6.35 180)
+				(length 2.54)
+				(name "BS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 3.81 180)
 				(length 2.54)
 				(name "AS"
 					(effects
@@ -235,7 +234,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -244,7 +243,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 3.81 180)
+				(at 12.7 1.27 180)
 				(length 2.54)
 				(name "BOUT1"
 					(effects
@@ -253,7 +252,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -262,7 +261,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 1.27 180)
+				(at 12.7 -1.27 180)
 				(length 2.54)
 				(name "BOUT2"
 					(effects
@@ -271,7 +270,7 @@
 						)
 					)
 				)
-				(number "8"
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -280,7 +279,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -1.27 180)
+				(at 12.7 -3.81 180)
 				(length 2.54)
 				(name "AOUT2"
 					(effects
@@ -298,7 +297,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -3.81 180)
+				(at 12.7 -6.35 180)
 				(length 2.54)
 				(name "AOUT1"
 					(effects
@@ -307,7 +306,7 @@
 						)
 					)
 				)
-				(number "12"
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -323,15 +322,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -7.112 6.096 0)
+			(at -5.08 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Adafruit MPM3610 (3.3V)"
-			(at 0.254 -6.096 0)
+		(property "Value" "Adafruit MPM3610"
+			(at 6.35 -7.62 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -365,22 +364,57 @@
 				(hide yes)
 			)
 		)
-		(symbol "Adafruit_MPM3610_0_1"
+		(symbol "Adafruit_MPM3610_1_1"
 			(rectangle
-				(start -7.62 5.08)
-				(end 6.35 -5.08)
+				(start -5.08 6.35)
+				(end 5.08 -6.35)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type color)
+					(color 255 255 194 1)
 				)
 			)
-		)
-		(symbol "Adafruit_MPM3610_1_1"
+			(pin input line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "En"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
-				(at -10.16 3.81 0)
+				(at -2.54 8.89 270)
+				(length 2.54)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -8.89 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -398,7 +432,7 @@
 				)
 			)
 			(pin power_out line
-				(at -10.16 1.27 0)
+				(at 2.54 8.89 270)
 				(length 2.54)
 				(name "3V"
 					(effects
@@ -415,26 +449,71 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -10.16 -1.27 0)
-				(length 2.54)
-				(name "Vin"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Adafruit_TPS61023"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -5.08 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+			)
+		)
+		(property "Value" "Adafruit TPS61023"
+			(at 6.35 -7.62 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1.27 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1.27 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1.27 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Adafruit_TPS61023_1_1"
+			(rectangle
+				(start -5.08 6.35)
+				(end 5.08 -6.35)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
 				)
 			)
 			(pin input line
-				(at -10.16 -3.81 0)
+				(at -7.62 0 0)
 				(length 2.54)
 				(name "En"
 					(effects
@@ -451,72 +530,8 @@
 					)
 				)
 			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "Adafruit_TPS61023"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at -7.112 6.096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Adafruit TPS61023(5V)"
-			(at 1.016 -6.096 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Adafruit_TPS61023_0_1"
-			(rectangle
-				(start -7.62 5.08)
-				(end 6.35 -5.08)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Adafruit_TPS61023_1_1"
 			(pin power_in line
-				(at -10.16 3.81 0)
+				(at -2.54 8.89 270)
 				(length 2.54)
 				(name "Vin"
 					(effects
@@ -534,7 +549,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 1.27 0)
+				(at 0 -8.89 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -552,7 +567,7 @@
 				)
 			)
 			(pin power_out line
-				(at -10.16 -1.27 0)
+				(at 2.54 8.89 270)
 				(length 2.54)
 				(name "5V"
 					(effects
@@ -562,24 +577,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -10.16 -3.81 0)
-				(length 2.54)
-				(name "En"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)

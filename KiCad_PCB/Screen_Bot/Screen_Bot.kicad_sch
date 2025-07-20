@@ -182,20 +182,335 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Screen_Bot:Adafruit_MPM3610"
+		(symbol "Screen_Bot:Adafruit_DRV8833"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -7.112 6.096 0)
+				(at -8.89 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Adafruit MPM3610 (3.3V)"
-				(at 0.254 -6.096 0)
+			(property "Value" "Adafruit DRV8833"
+				(at 6.35 -13.97 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Adafruit_DRV8833_1_1"
+				(rectangle
+					(start -10.16 11.43)
+					(end 10.16 -12.7)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+				(pin open_collector line
+					(at -12.7 6.35 0)
+					(length 2.54)
+					(name "FLT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 3.81 0)
+					(length 2.54)
+					(name "BIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 1.27 0)
+					(length 2.54)
+					(name "BIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -1.27 0)
+					(length 2.54)
+					(name "SLP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -3.81 0)
+					(length 2.54)
+					(name "AIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -6.35 0)
+					(length 2.54)
+					(name "AIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 13.97 270)
+					(length 2.54)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 6.35 180)
+					(length 2.54)
+					(name "BS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 3.81 180)
+					(length 2.54)
+					(name "AS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 1.27 180)
+					(length 2.54)
+					(name "BOUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "BOUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "AOUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -6.35 180)
+					(length 2.54)
+					(name "AOUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Screen_Bot:Adafruit_MPM3610"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Adafruit MPM3610"
+				(at 6.35 -7.62 0)
 				(effects
 					(font
 						(size 0.635 0.635)
@@ -229,22 +544,57 @@
 					(hide yes)
 				)
 			)
-			(symbol "Adafruit_MPM3610_0_1"
+			(symbol "Adafruit_MPM3610_1_1"
 				(rectangle
-					(start -7.62 5.08)
-					(end 6.35 -5.08)
+					(start -5.08 6.35)
+					(end 5.08 -6.35)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 255 255 194 1)
 					)
 				)
-			)
-			(symbol "Adafruit_MPM3610_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "En"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
-					(at -10.16 3.81 0)
+					(at -2.54 8.89 270)
+					(length 2.54)
+					(name "Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -8.89 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -262,7 +612,7 @@
 					)
 				)
 				(pin power_out line
-					(at -10.16 1.27 0)
+					(at 2.54 8.89 270)
 					(length 2.54)
 					(name "3V"
 						(effects
@@ -279,26 +629,71 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -10.16 -1.27 0)
-					(length 2.54)
-					(name "Vin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Screen_Bot:Adafruit_TPS61023"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				)
+			)
+			(property "Value" "Adafruit TPS61023"
+				(at 6.35 -7.62 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Adafruit_TPS61023_1_1"
+				(rectangle
+					(start -5.08 6.35)
+					(end 5.08 -6.35)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
 					)
 				)
 				(pin input line
-					(at -10.16 -3.81 0)
+					(at -7.62 0 0)
 					(length 2.54)
 					(name "En"
 						(effects
@@ -315,26 +710,89 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -2.54 8.89 270)
+					(length 2.54)
+					(name "Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 2.54 8.89 270)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Screen_Bot:Adafruit_TPS61023"
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -7.112 6.096 0)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Value" "Adafruit TPS61023(5V)"
-				(at 1.016 -6.096 0)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
 				(effects
 					(font
-						(size 0.635 0.635)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -356,7 +814,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -365,10 +823,44 @@
 					(hide yes)
 				)
 			)
-			(symbol "Adafruit_TPS61023_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 6.35 -5.08)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -378,11 +870,11 @@
 					)
 				)
 			)
-			(symbol "Adafruit_TPS61023_1_1"
+			(symbol "+3.3V_1_1"
 				(pin power_in line
-					(at -10.16 3.81 0)
-					(length 2.54)
-					(name "Vin"
+					(at 0 0 90)
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -390,60 +882,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 1.27 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -10.16 -1.27 0)
-					(length 2.54)
-					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -3.81 0)
-					(length 2.54)
-					(name "En"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -908,292 +1346,243 @@
 		)
 	)
 	(junction
-		(at 124.46 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2574260b-60c1-48b7-9c9c-cb94409ae3c8")
-	)
-	(junction
-		(at 104.14 102.87)
+		(at 102.87 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d89265a-174c-46f4-afd9-17c5facb64cf")
 	)
 	(junction
-		(at 113.03 85.09)
+		(at 102.87 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "46364df8-758a-4313-ab4f-2281c54bc100")
-	)
-	(junction
-		(at 111.76 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b80e6fec-f327-44ae-aa8b-dff9aa2f60ec")
-	)
-	(junction
-		(at 104.14 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6bcd3f8-581c-492e-850b-aaeca6fa7ded")
-	)
-	(junction
-		(at 124.46 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec4dafcc-86ea-4456-aa2a-6b2be42bff80")
+		(uuid "6e1073bb-c5f2-4838-b063-548746ca0364")
 	)
 	(no_connect
-		(at 129.54 100.33)
-		(uuid "16813ce6-04ea-4aa2-a901-d31f4b8e5bc6")
+		(at 201.93 88.9)
+		(uuid "0fea0aa3-ab1a-407a-8727-7a0d8b2f5733")
 	)
 	(no_connect
-		(at 129.54 105.41)
-		(uuid "b9828c2e-38fd-4326-9d19-f5b0f0edf42f")
+		(at 121.92 96.52)
+		(uuid "19cefccd-9b5a-4adf-80fd-6e061eda0323")
 	)
 	(no_connect
-		(at 129.54 92.71)
-		(uuid "f16f8473-633d-4b4f-84be-481131127163")
+		(at 176.53 93.98)
+		(uuid "1d43c804-9837-40fa-bd78-cf92c78320f2")
+	)
+	(no_connect
+		(at 176.53 96.52)
+		(uuid "1df98420-3744-4c2a-be36-dc2abe3e1af3")
+	)
+	(no_connect
+		(at 201.93 96.52)
+		(uuid "25c7018a-716d-4f5f-8c09-36a751d35945")
+	)
+	(no_connect
+		(at 176.53 88.9)
+		(uuid "41bcd29f-7d58-4c5e-9a6f-bdf2ba156ed5")
+	)
+	(no_connect
+		(at 144.78 96.52)
+		(uuid "4b88a355-2340-4de4-ae37-261f337d04ff")
+	)
+	(no_connect
+		(at 176.53 91.44)
+		(uuid "761fa3de-14dd-4e88-afa9-5d8072bebbd5")
+	)
+	(no_connect
+		(at 201.93 91.44)
+		(uuid "7c7b6de1-3c06-457b-aa22-cd6dcf09c525")
+	)
+	(no_connect
+		(at 201.93 101.6)
+		(uuid "82541128-115b-4414-9abb-92d241d17ce6")
+	)
+	(no_connect
+		(at 201.93 99.06)
+		(uuid "8adf4a23-fb67-4553-9934-c8a81d7b9ac8")
+	)
+	(no_connect
+		(at 176.53 99.06)
+		(uuid "af2211bc-33ce-484f-a100-7fb9b93778df")
+	)
+	(no_connect
+		(at 201.93 93.98)
+		(uuid "d701152d-846d-48c1-8d85-70b21cc7e1e0")
+	)
+	(no_connect
+		(at 176.53 101.6)
+		(uuid "e4af9a8f-b134-430e-a0fd-8feb50de500c")
 	)
 	(wire
 		(pts
-			(xy 128.27 102.87) (xy 128.27 105.41)
+			(xy 102.87 100.33) (xy 102.87 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "047f4a8f-a4e1-42a2-af71-b9010bbd55b6")
+		(uuid "08d1909a-fb13-485a-9e26-525f86db40a9")
 	)
 	(wire
 		(pts
-			(xy 129.54 85.09) (xy 113.03 85.09)
+			(xy 102.87 90.17) (xy 102.87 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1160fd89-e6b3-4830-b7e0-bad595ec9615")
+		(uuid "1a226562-112d-4f0b-840d-a77458730864")
 	)
 	(wire
 		(pts
-			(xy 102.87 100.33) (xy 102.87 102.87)
+			(xy 154.94 86.36) (xy 154.94 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b8df31c-74d5-4514-bfd8-34cbca98f2b5")
+		(uuid "1f416891-8f21-4ed1-b14d-f3e22c1efbb4")
 	)
 	(wire
 		(pts
-			(xy 120.65 102.87) (xy 120.65 87.63)
+			(xy 102.87 86.36) (xy 102.87 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1dd64f13-4c1a-4669-b1b0-505ea4bc10e2")
+		(uuid "2d093903-a3d2-4158-8745-63aa85de9a7a")
 	)
 	(wire
 		(pts
-			(xy 128.27 105.41) (xy 124.46 105.41)
+			(xy 102.87 90.17) (xy 93.98 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e0dbe4f-4065-4c1c-bef0-98f3b989c77d")
+		(uuid "3ea364ec-9d3e-41b1-b88e-c16772099201")
 	)
 	(wire
 		(pts
-			(xy 121.92 90.17) (xy 121.92 105.41)
+			(xy 102.87 100.33) (xy 95.25 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43b9f1f9-d1cb-4da0-9901-22c3c7381c40")
+		(uuid "6fca0d53-bd67-420b-b6f0-c84172c55e73")
 	)
 	(wire
 		(pts
-			(xy 124.46 97.79) (xy 129.54 97.79)
+			(xy 152.4 105.41) (xy 152.4 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b393cd0-2dc5-45d9-8a27-d40e4e0f014e")
+		(uuid "700e34e2-f02c-4450-b634-3d57dcbaa088")
 	)
 	(wire
 		(pts
-			(xy 128.27 102.87) (xy 129.54 102.87)
+			(xy 129.54 105.41) (xy 129.54 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51c70e5a-2019-4e70-8732-777327bca574")
+		(uuid "8518bff0-5b48-4b02-a519-f009ee497250")
 	)
 	(wire
 		(pts
-			(xy 104.14 102.87) (xy 111.76 102.87)
+			(xy 189.23 80.01) (xy 189.23 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56e6ab35-436b-4eef-b0a8-b95fe9bd9b35")
+		(uuid "8cf35cfb-4f41-4e54-be6a-a17e1bd2b2e2")
 	)
 	(wire
 		(pts
-			(xy 102.87 102.87) (xy 104.14 102.87)
+			(xy 189.23 110.49) (xy 189.23 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65963cb1-2994-4633-9a6d-6d02e433e6dd")
+		(uuid "9b3fa542-378e-4e4f-b8be-7f9e9860ef66")
 	)
 	(wire
 		(pts
-			(xy 113.03 85.09) (xy 110.49 85.09)
+			(xy 127 86.36) (xy 127 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71865714-e213-4277-89a2-2c3fb6135e56")
+		(uuid "9bf23ab3-44fe-4451-b857-094dfec66207")
 	)
 	(wire
 		(pts
-			(xy 124.46 87.63) (xy 129.54 87.63)
+			(xy 149.86 86.36) (xy 149.86 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "747590a2-4540-46f1-b872-23d7b42031ee")
+		(uuid "e53ce1ac-b332-42bf-99dc-f60fc5a89d05")
 	)
 	(wire
 		(pts
-			(xy 110.49 85.09) (xy 110.49 88.9)
+			(xy 132.08 86.36) (xy 132.08 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2118046-d2f3-447a-abd1-99d26320f6d8")
+		(uuid "f04da4da-d4e0-450f-81b0-749e94ae8cbc")
 	)
 	(wire
 		(pts
-			(xy 120.65 87.63) (xy 124.46 87.63)
+			(xy 95.25 100.33) (xy 95.25 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8e667ac-35ab-4499-b87f-c333af6a1e2a")
-	)
-	(wire
-		(pts
-			(xy 110.49 88.9) (xy 104.14 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8c765c9-a85d-485f-8a86-2debe39b69a8")
-	)
-	(wire
-		(pts
-			(xy 102.87 92.71) (xy 102.87 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7c674e4-4ee0-4470-ae99-d50fe021ec71")
-	)
-	(wire
-		(pts
-			(xy 121.92 105.41) (xy 124.46 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caa954b6-5041-499e-8348-31bba5e149d7")
-	)
-	(wire
-		(pts
-			(xy 124.46 87.63) (xy 124.46 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d050707d-3697-4f63-9634-4aa357e25e0d")
-	)
-	(wire
-		(pts
-			(xy 111.76 102.87) (xy 120.65 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee1afff9-dda7-4122-83a5-e84d9968364f")
-	)
-	(wire
-		(pts
-			(xy 102.87 88.9) (xy 104.14 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f49dc7ec-bb98-4218-9438-615ae0385aa5")
-	)
-	(wire
-		(pts
-			(xy 129.54 90.17) (xy 121.92 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc2997b0-ee61-4104-90b4-6ee752f9897c")
+		(uuid "fac492f5-deee-4c73-8d60-71fed140341a")
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 113.03 85.09 0)
+		(lib_id "Screen_Bot:Adafruit_DRV8833")
+		(at 189.23 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "393e29a5-211a-4003-b032-2d1506e4d601")
-		(property "Reference" "#PWR03"
-			(at 113.03 88.9 0)
+		(uuid "1f2d1470-1796-438b-a017-e9c6cb22fdf2")
+		(property "Reference" "U3"
+			(at 191.3733 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "VCC"
-			(at 113.03 80.01 0)
+		(property "Value" "Adafruit DRV8833"
+			(at 191.3733 82.55 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 113.03 85.09 0)
+		(property "Footprint" "Screen_Bot:Adafruit_DRV8833"
+			(at 189.23 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1202,7 +1591,112 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 85.09 0)
+			(at 189.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7116248e-456f-4095-a2b4-89a65c02aaa4")
+		)
+		(pin "6"
+			(uuid "fa25f022-d480-484e-819f-fdd48d59b8b7")
+		)
+		(pin "11"
+			(uuid "dee00afe-971b-4cdc-9289-c16f198996cd")
+		)
+		(pin "5"
+			(uuid "8b721a93-a57d-42cc-94a6-8126b7447e1c")
+		)
+		(pin "4"
+			(uuid "4192c351-0559-403e-86d5-46145fd1b4dd")
+		)
+		(pin "13"
+			(uuid "39d4cc09-68bb-424c-96ff-82f5203f2e86")
+		)
+		(pin "8"
+			(uuid "2e7a8b21-2016-448c-9f03-9e060edc551f")
+		)
+		(pin "10"
+			(uuid "36e2d3d4-182d-4e64-beda-75951fedc6ff")
+		)
+		(pin "9"
+			(uuid "ba70bd35-ea45-4e51-b628-531e6879f89e")
+		)
+		(pin "14"
+			(uuid "5f7a7ce4-2e44-41b1-9098-4a090729d32d")
+		)
+		(pin "2"
+			(uuid "855eac5c-9284-4061-859c-3dd912dba27e")
+		)
+		(pin "1"
+			(uuid "c038d136-40c6-40dd-a4f2-aba8f3c1a223")
+		)
+		(pin "7"
+			(uuid "861c39bc-8a0c-4f43-a177-3ccdf6d2629e")
+		)
+		(pin "12"
+			(uuid "e33f575d-cfa5-4722-b870-9d47e1d5c3c0")
+		)
+		(instances
+			(project ""
+				(path "/9d862c33-0c54-4e5b-8f3b-6dabfce2e5ec"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 102.87 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "393e29a5-211a-4003-b032-2d1506e4d601")
+		(property "Reference" "#PWR03"
+			(at 102.87 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 102.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1211,7 +1705,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 113.03 85.09 0)
+			(at 102.87 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1232,8 +1726,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 129.54 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42edded9-2b1f-43ce-931b-b3b7956cb173")
+		(property "Reference" "#PWR07"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a64d103a-bba2-4a24-a4fd-b10742dadd7d")
+		)
+		(instances
+			(project ""
+				(path "/9d862c33-0c54-4e5b-8f3b-6dabfce2e5ec"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 104.14 88.9 0)
+		(at 93.98 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1242,7 +1802,7 @@
 		(fields_autoplaced yes)
 		(uuid "456c2a93-5068-447d-b4d0-6d16e2d97bd5")
 		(property "Reference" "#FLG01"
-			(at 104.14 86.995 0)
+			(at 93.98 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1251,7 +1811,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 104.14 83.82 0)
+			(at 93.98 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1259,7 +1819,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 88.9 0)
+			(at 93.98 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1268,7 +1828,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 88.9 0)
+			(at 93.98 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1277,7 +1837,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 104.14 88.9 0)
+			(at 93.98 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1298,34 +1858,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Screen_Bot:Adafruit_MPM3610")
-		(at 139.7 101.6 0)
+		(lib_id "power:+3.3V")
+		(at 154.94 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5672b3bc-8846-41e2-9d03-dfd91183c533")
-		(property "Reference" "U2"
-			(at 147.32 100.9649 0)
+		(fields_autoplaced yes)
+		(uuid "57496b0f-69fd-4152-975d-7e482f5e1ed4")
+		(property "Reference" "#PWR05"
+			(at 154.94 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "Adafruit MPM3610 (3.3V)"
-			(at 133.35 107.95 0)
+		(property "Value" "+3.3V"
+			(at 154.94 81.28 0)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Screen_Bot:Adafruit_MPM3610"
-			(at 132.08 100.33 0)
+		(property "Footprint" ""
+			(at 154.94 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1334,7 +1894,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 100.33 0)
+			(at 154.94 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1342,31 +1902,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 132.08 100.33 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 154.94 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "a07d7af1-c5a4-49e7-8bdf-6c20a0db0388")
-		)
-		(pin "2"
-			(uuid "9a82cbcd-2be5-479f-aa05-cbd83f8e0291")
-		)
-		(pin "4"
-			(uuid "662630ea-d609-4a0c-856b-fbaa64453925")
 		)
 		(pin "1"
-			(uuid "03d4ab2f-1e37-4a27-9531-428e9b89b807")
+			(uuid "0bad3108-8f35-47d5-b924-0d6db0b0e563")
 		)
 		(instances
 			(project ""
 				(path "/9d862c33-0c54-4e5b-8f3b-6dabfce2e5ec"
-					(reference "U2")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -1374,16 +1925,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 102.87 0)
+		(at 189.23 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "73fe2396-9a2c-4fb2-8cf8-5f4f68c7cee7")
-		(property "Reference" "#PWR01"
-			(at 111.76 109.22 0)
+		(uuid "5eb86e87-a34d-4eb9-9a41-691ad67c7522")
+		(property "Reference" "#PWR09"
+			(at 189.23 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1392,7 +1943,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 107.95 0)
+			(at 189.23 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1400,7 +1951,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 102.87 0)
+			(at 189.23 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1409,7 +1960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 102.87 0)
+			(at 189.23 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1418,7 +1969,139 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 102.87 0)
+			(at 189.23 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc4bc625-477c-4e39-8bb1-4dc796d1e04c")
+		)
+		(instances
+			(project "Screen_Bot"
+				(path "/9d862c33-0c54-4e5b-8f3b-6dabfce2e5ec"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 149.86 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f79e4c7-c201-41ac-88bf-053c2950ee15")
+		(property "Reference" "#PWR02"
+			(at 149.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 149.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0162315-976f-42d4-be6e-e4713a3622f5")
+		)
+		(instances
+			(project "Screen_Bot"
+				(path "/9d862c33-0c54-4e5b-8f3b-6dabfce2e5ec"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73fe2396-9a2c-4fb2-8cf8-5f4f68c7cee7")
+		(property "Reference" "#PWR01"
+			(at 102.87 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1439,33 +2122,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 124.46 105.41 0)
+		(lib_id "Screen_Bot:Adafruit_MPM3610")
+		(at 152.4 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8e4def14-fa75-4f3e-a947-b1e62fcfcef3")
-		(property "Reference" "#PWR02"
-			(at 124.46 109.22 0)
+		(uuid "75715ebe-3354-4cf3-96ad-55b342d33aa4")
+		(property "Reference" "U2"
+			(at 147.066 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "+5V"
-			(at 124.46 100.838 0)
+		(property "Value" "Adafruit MPM3610"
+			(at 154.432 103.886 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 124.46 105.41 0)
+		(property "Footprint" "Screen_Bot:Adafruit_MPM3610"
+			(at 144.78 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1474,7 +2158,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 105.41 0)
+			(at 144.78 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1482,8 +2166,82 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 124.46 105.41 0)
+		(property "Description" ""
+			(at 144.78 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8a19157a-1d1b-4121-baa0-244623e4f8cc")
+		)
+		(pin "3"
+			(uuid "e29dae91-6a38-4cbd-8f98-3bf8b85ea6af")
+		)
+		(pin "1"
+			(uuid "175ce4dd-edb2-48a9-a42b-07dd4dbcef80")
+		)
+		(pin "2"
+			(uuid "e6e19504-442a-4fc7-9447-cf5baa7b293d")
+		)
+		(instances
+			(project ""
+				(path "/9d862c33-0c54-4e5b-8f3b-6dabfce2e5ec"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 127 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "966c0ac1-f17e-4b27-ac34-416a033823ca")
+		(property "Reference" "#PWR04"
+			(at 127 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 127 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 127 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1492,12 +2250,144 @@
 			)
 		)
 		(pin "1"
-			(uuid "8feb6dfd-4729-4783-81a8-6d0bace46850")
+			(uuid "815ea7eb-1819-45d0-8cf8-5edbf4e0bef9")
 		)
 		(instances
 			(project ""
 				(path "/9d862c33-0c54-4e5b-8f3b-6dabfce2e5ec"
-					(reference "#PWR02")
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fa626d5-351f-4b4e-95cf-a135d61b7763")
+		(property "Reference" "#PWR010"
+			(at 152.4 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2ba5ca7-e0cb-4e48-b3e1-10c2efa701d9")
+		)
+		(instances
+			(project "Screen_Bot"
+				(path "/9d862c33-0c54-4e5b-8f3b-6dabfce2e5ec"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 132.08 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1cb0eb0-8f9a-4873-909a-e1ebc842ec18")
+		(property "Reference" "#PWR06"
+			(at 132.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 132.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 132.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d627eaf-c04a-45a6-8570-891997505379")
+		)
+		(instances
+			(project ""
+				(path "/9d862c33-0c54-4e5b-8f3b-6dabfce2e5ec"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -1505,7 +2395,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 104.14 102.87 180)
+		(at 95.25 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1514,7 +2404,7 @@
 		(fields_autoplaced yes)
 		(uuid "c59a5bb9-7a12-4f21-ba04-8e0fc2235f69")
 		(property "Reference" "#FLG02"
-			(at 104.14 104.775 0)
+			(at 95.25 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1523,7 +2413,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 104.14 107.95 0)
+			(at 95.25 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1531,7 +2421,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 102.87 0)
+			(at 95.25 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1540,7 +2430,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 102.87 0)
+			(at 95.25 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1549,7 +2439,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 104.14 102.87 0)
+			(at 95.25 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1564,6 +2454,72 @@
 			(project ""
 				(path "/9d862c33-0c54-4e5b-8f3b-6dabfce2e5ec"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 189.23 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9b4d8ad-e6a6-4421-8c47-5b9b84d4dc40")
+		(property "Reference" "#PWR08"
+			(at 189.23 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 189.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 189.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "668fc07a-f2a5-47c6-9b19-5600a0c6f9bc")
+		)
+		(instances
+			(project "Screen_Bot"
+				(path "/9d862c33-0c54-4e5b-8f3b-6dabfce2e5ec"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -1641,7 +2597,7 @@
 	)
 	(symbol
 		(lib_id "Screen_Bot:Adafruit_TPS61023")
-		(at 139.7 88.9 0)
+		(at 129.54 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1649,7 +2605,7 @@
 		(dnp no)
 		(uuid "f76088b9-0601-411d-b24d-8417336b07f3")
 		(property "Reference" "U1"
-			(at 147.32 88.2649 0)
+			(at 123.952 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1657,8 +2613,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Adafruit TPS61023(5V)"
-			(at 133.096 95.25 0)
+		(property "Value" "Adafruit TPS61023"
+			(at 131.318 103.886 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1667,7 +2623,7 @@
 			)
 		)
 		(property "Footprint" "Screen_Bot:Adafruit_TPS61023"
-			(at 139.7 88.9 0)
+			(at 129.54 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1676,7 +2632,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 88.9 0)
+			(at 129.54 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1685,7 +2641,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 88.9 0)
+			(at 129.54 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
